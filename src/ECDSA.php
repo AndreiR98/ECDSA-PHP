@@ -31,7 +31,7 @@ Class ECDSA {
         $order = $curve->N;
         
         //Recover the hash method for this curve
-        $hash = $algo->hash();
+        $hash = $algo->hash;
 
         
         $k  = (Math::hex2int(hash_hmac($hash, $message, $secretKey))) % $order;

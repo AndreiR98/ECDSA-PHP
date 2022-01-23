@@ -23,11 +23,11 @@ Class Algorithms {
 	}
 	
 	public static function ES256(){
-		new Algorithms('ES256', 'sha256');
+		return new Algorithms('ES256', 'sha256');
 	}
 
 	public static function ES3_256(){
-		new Algorithms('ES3_256', 'sha3-256');
+		return new Algorithms('ES3_256', 'sha3-256');
 	}
 }
 ?>
