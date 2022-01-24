@@ -63,13 +63,14 @@ Class ECDSA {
 
     public function Verify($message, $signature, $key){
 
-        $Px = Math::hex2int(Math::hexlify($key['x']));
-        $Py = Math::hex2int(Math::hexlify($key['y']));
+        $Px = Math::hex2int(Math::hexlify($key->x));
+        $Py = Math::hex2int(Math::hexlify($key->y));
 
         $r = Math::hex2int(Math::hexlify($signature['r']));
         $s = Math::hex2int(Math::hexlify($signature['s']));
 
-        $curve = Curves::NIST256p();
+        $curve = $key->curve;
+        $algorithm = $key->algorithm;
         $order = $curve->order();
 
         [$x, $y] = $curve->generator();
@@ -78,7 +79,7 @@ Class ECDSA {
         
         $publicPoint = new PointJacobi(new ECpoint($Px, $Py, 1), $curve);
 
-        $hash = (Math::hex2int(openssl_digest($message, $curve->hash))) % $order;
+        $hash = (Math::hex2int(openssl_digest($message, $algorithm->hash))) % $order;
 
         $c = gmp_invert($s, $order);
         $u1 = ($hash * $c) % $order;
