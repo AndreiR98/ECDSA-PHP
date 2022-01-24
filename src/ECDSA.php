@@ -23,15 +23,17 @@ Class ECDSA {
      *
      * @return array
      */
-    public function Sign($message, $curve, $algo, $Key){        
+    public function Sign($message, $Key){        
         //Recover the secret key from pem by KID
-        $secretKey = Math::hex2int(Math::hexlify($Key));
+        $secretKey = Math::hex2int(Math::hexlify($Key->d));
 
-        //Recover the order
+        $curve = $Key->curve;
+        $algorithm = $key->algorithm;
+
         $order = $curve->N;
         
         //Recover the hash method for this curve
-        $hash = $algo->hash;
+        $hash = $algorithm->hash;
 
         
         $k  = (Math::hex2int(hash_hmac($hash, $message, $secretKey))) % $order;
