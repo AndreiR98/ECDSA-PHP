@@ -28,7 +28,7 @@ Class ECDSA {
         $secretKey = Math::hex2int(Math::hexlify($Key->d));
 
         $curve = $Key->curve;
-        $algorithm = $key->algorithm;
+        $algorithm = $Key->algorithm;
 
         $order = $curve->N;
         
