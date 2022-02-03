@@ -23,7 +23,7 @@ Class ECDSA {
      *
      * @return array
      */
-    public function Sign($message, $Key){        
+    public static function Sign($message, $Key){        
         //Recover the secret key from pem by KID
         $secretKey = Math::hex2int(Math::hexlify($Key->d));
 
@@ -65,7 +65,7 @@ Class ECDSA {
      * @return bool
      */
 
-    public function Verify($message, $signature, $key){
+    public static function Verify($message, $signature, $key){
 
         $Px = Math::hex2int(Math::hexlify($key->x));
         $Py = Math::hex2int(Math::hexlify($key->y));

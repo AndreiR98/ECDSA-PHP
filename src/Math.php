@@ -50,7 +50,7 @@ Class Math {
 		while ($int > 0){
 			[$q, $r] = gmp_div_qr($int, 16);
 			$int = $q;
-			array_push($hex, dechex($r));
+			array_push($hex, dechex((int)$r));
 		}
 
 		$hex = implode("", array_reverse($hex));
