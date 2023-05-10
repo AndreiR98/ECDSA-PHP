@@ -2,12 +2,9 @@
  Elliptic Curve Cryptography for PHP
  
  ##Usage
- 
+
  ```php
- use \ECDSA\Key;
-use \ECDSA\Curves;
-use \ECDSA\Algorithms;
-use \ECDSA\ECDSA;
+ use ECDSA\Algorithms;use ECDSA\curves\Curves;use ECDSA\ECDSA;use ECDSA\Key;
 
 $pem = 'EC PRIVATE KEY PEM FORMAT';
 

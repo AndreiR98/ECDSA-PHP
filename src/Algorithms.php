@@ -7,7 +7,7 @@
  */
 namespace ECDSA;
 
-Class Algorithms {
+class Algorithms {
 
 	public $name;
 
@@ -18,9 +18,13 @@ Class Algorithms {
 		$this->hash = $hash;
 	}
 
-	public static function name() {
+	public function name() {
 		return $this->name;
 	}
+
+    public function getHash() : String {
+        return $this->hash;
+    }
 	
 	public static function ES256(){
 		return new Algorithms('ES256', 'sha256');

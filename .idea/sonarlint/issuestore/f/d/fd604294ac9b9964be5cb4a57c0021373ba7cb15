@@ -1,0 +1,38 @@
+
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131	"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+Qphp:S105"EReplace all tab characters in this file by sequences of white-spaces.
+N	php:S1808":Add a blank line after this "namespace ECDSA" declaration.(İÚ¾A
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(âš€şÿÿÿÿ
+W	php:S1808%"=Move this open curly brace to the beginning of the next line.(ç¦º¤üÿÿÿÿ
+R	php:S18080"=Move this open curly brace to the beginning of the next line.(¬›îÁ
+R	php:S18084"=Move this open curly brace to the beginning of the next line.(ßòÎş
+R	php:S18088"=Move this open curly brace to the beginning of the next line.(Òû—ë
+R	php:S1808<"=Move this open curly brace to the beginning of the next line.(ˆ‹ØŸ
+R	php:S1808@"=Move this open curly brace to the beginning of the next line.(à£¤Æ
+W	php:S1808N"=Move this open curly brace to the beginning of the next line.(Í©õóúÿÿÿÿ
+d	php:S1808%"JPut one space between the closing parenthesis and the opening curly brace.(ç¦º¤üÿÿÿÿ
+_	php:S18080"JPut one space between the closing parenthesis and the opening curly brace.(¬›îÁ
+_	php:S18084"JPut one space between the closing parenthesis and the opening curly brace.(ßòÎş
+_	php:S1808@"JPut one space between the closing parenthesis and the opening curly brace.(à£¤Æ
+d	php:S1808N"JPut one space between the closing parenthesis and the opening curly brace.(Í©õóúÿÿÿÿ
+D	php:S1808B"/Align all arguments in this list at column "6".(­´õ
+I	php:S1808P"/Align all arguments in this list at column "6".(ÖßĞàûÿÿÿÿ
+`php:S107%"GThis function has 9 parameters, which is greater than the 7 authorized.(ç¦º¤üÿÿÿÿ
+cphp:S100@"ORename function "NIST256p" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(à£¤Æ
+iphp:S100N"PRename function "SECP256k1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Í©õóúÿÿÿÿ
+^	php:S1784%"DExplicitly mention the visibility of this constructor "__construct".(ç¦º¤üÿÿÿÿ
+C	php:S1781")Write this "Class" keyword in lower case.(âš€şÿÿÿÿ
+_php:S116"KRename this field "$A" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ñœã
+dphp:S116"KRename this field "$B" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ïİğÆüÿÿÿÿ
+_php:S116"KRename this field "$P" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¨µœƒ
+dphp:S116"KRename this field "$N" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(à°Úƒüÿÿÿÿ
+_php:S116"LRename this field "$Gx" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¼»š 
+ephp:S116"LRename this field "$Gy" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Å†¾ûøÿÿÿÿ
+hphp:S117%"ORename this parameter "$A" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ç¦º¤üÿÿÿÿ
+hphp:S117%"ORename this parameter "$B" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ç¦º¤üÿÿÿÿ
+hphp:S117%"ORename this parameter "$P" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ç¦º¤üÿÿÿÿ
+hphp:S117%"ORename this parameter "$N" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ç¦º¤üÿÿÿÿ
+iphp:S117%"PRename this parameter "$Gx" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ç¦º¤üÿÿÿÿ
+iphp:S117%"PRename this parameter "$Gy" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ç¦º¤üÿÿÿÿ
+^	php:S1779"QReplace all non line feed end of line characters in this file "Curves.php" by LF.

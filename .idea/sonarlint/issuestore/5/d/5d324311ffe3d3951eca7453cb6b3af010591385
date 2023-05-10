@@ -1,0 +1,18 @@
+
+Qphp:S105"EReplace all tab characters in this file by sequences of white-spaces.
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(šö³Çùÿÿÿÿ
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(¤ó‡Êúÿÿÿÿ
+R	php:S1808"=Move this open curly brace to the beginning of the next line.(æº¾
+R	php:S1808"=Move this open curly brace to the beginning of the next line.(ßÒè¸
+R	php:S18080"=Move this open curly brace to the beginning of the next line.(àÃú¶
+d	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(¤ó‡Êúÿÿÿÿ
+_	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(æº¾
+_	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(ßÒè¸
+d	php:S1808)"JPut one space between the closing parenthesis and the opening curly brace.(“Ä«€þÿÿÿÿ
+_	php:S18080"JPut one space between the closing parenthesis and the opening curly brace.(àÃú¶
+d	php:S18082"JPut one space between the closing parenthesis and the opening curly brace.(Ã•å„ýÿÿÿÿ
+c	php:S1808)"IPut one space between this "foreach" keyword and the opening parenthesis.(“Ä«€þÿÿÿÿ
+]	php:S1808)"CPut exactly one space after and before "=>" in "foreach" statement.(“Ä«€þÿÿÿÿ
+C	php:S1781")Write this "Class" keyword in lower case.(šö³Çùÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
+\	php:S1779"OReplace all non line feed end of line characters in this file "Math.php" by LF.

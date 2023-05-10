@@ -1,0 +1,25 @@
+
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+Z	php:S1131"@Remove the useless trailing whitespaces at the end of this line.(šº„ûÿÿÿÿ
+U	php:S1131;"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131<"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131>"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131i"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+U	php:S1131j"@Remove the useless trailing whitespaces at the end of this line.(óËµ¤
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(¿ÿüˆøÿÿÿÿ
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(šº„ûÿÿÿÿ
+W	php:S1808D"=Move this open curly brace to the beginning of the next line.(…€€Æùÿÿÿÿ
+W	php:S1808o"=Move this open curly brace to the beginning of the next line.(ÁëÆüÿÿÿÿ
+d	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(šº„ûÿÿÿÿ
+d	php:S1808D"JPut one space between the closing parenthesis and the opening curly brace.(…€€Æùÿÿÿÿ
+d	php:S1808o"JPut one space between the closing parenthesis and the opening curly brace.(ÁëÆüÿÿÿÿ
+dphp:S100"KRename function "Sign" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(šº„ûÿÿÿÿ
+fphp:S100D"MRename function "Verify" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(…€€Æùÿÿÿÿ
+lphp:S100o"SRename function "GetPublicKey" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÁëÆüÿÿÿÿ
+C	php:S1781")Write this "Class" keyword in lower case.(¿ÿüˆøÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
+jphp:S117"QRename this parameter "$Key" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(šº„ûÿÿÿÿ
+nphp:S117F"URename this local variable "$Px" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ä ò»ıÿÿÿÿ
+nphp:S117G"URename this local variable "$Py" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(™ıá‹ùÿÿÿÿ
+]	php:S1779"PReplace all non line feed end of line characters in this file "ECDSA.php" by LF.

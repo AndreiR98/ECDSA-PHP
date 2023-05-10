@@ -1,0 +1,182 @@
+
+[	php:S1131ÿ"@Remove the useless trailing whitespaces at the end of this line.(æÀö€øÿÿÿÿ
+Q	php:S1808"=Move this open curly brace to the beginning of the next line.(ÀÀÊ
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(¦×í«ÿÿÿÿÿ
+W	php:S1808""=Move this open curly brace to the beginning of the next line.(¼êìÖıÿÿÿÿ
+Q	php:S1808."=Move this open curly brace to the beginning of the next line.(ø•ñ
+W	php:S18089"=Move this open curly brace to the beginning of the next line.(ÁøÉóıÿÿÿÿ
+W	php:S1808>"=Move this open curly brace to the beginning of the next line.(Ò×ÊÇÿÿÿÿÿ
+R	php:S1808C"=Move this open curly brace to the beginning of the next line.(¿á¢
+W	php:S1808G"=Move this open curly brace to the beginning of the next line.(°·şÿùÿÿÿÿ
+W	php:S1808K"=Move this open curly brace to the beginning of the next line.(Ïœ¨üÿÿÿÿ
+R	php:S1808P"=Move this open curly brace to the beginning of the next line.(¾ÛƒÍ
+R	php:S1808T"=Move this open curly brace to the beginning of the next line.(À÷§¼
+Q	php:S1808b"=Move this open curly brace to the beginning of the next line.(°§Q
+R	php:S1808x"=Move this open curly brace to the beginning of the next line.(¨íó
+S	php:S1808˜"=Move this open curly brace to the beginning of the next line.(óÙëû
+S	php:S1808¦"=Move this open curly brace to the beginning of the next line.(ºÊŸ­
+S	php:S1808½"=Move this open curly brace to the beginning of the next line.(‚ğ‘È
+S	php:S1808Ò"=Move this open curly brace to the beginning of the next line.(Æşùı
+X	php:S1808í"=Move this open curly brace to the beginning of the next line.(Œì‰¹úÿÿÿÿ
+S	php:S1808‰"=Move this open curly brace to the beginning of the next line.(­”ê¦
+S	php:S1808¤"=Move this open curly brace to the beginning of the next line.(ëÂµ¥
+X	php:S1808°"=Move this open curly brace to the beginning of the next line.(„§¼©ÿÿÿÿÿ
+X	php:S1808Ã"=Move this open curly brace to the beginning of the next line.(ë¤Ïÿÿÿÿÿÿ
+d	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(¦×í«ÿÿÿÿÿ
+_	php:S1808$"JPut one space between the closing parenthesis and the opening curly brace.(Šş³š
+^	php:S1808."JPut one space between the closing parenthesis and the opening curly brace.(ø•ñ
+_	php:S18080"JPut one space between the closing parenthesis and the opening curly brace.(Šş³š
+d	php:S18089"JPut one space between the closing parenthesis and the opening curly brace.(ÁøÉóıÿÿÿÿ
+_	php:S1808C"JPut one space between the closing parenthesis and the opening curly brace.(¿á¢
+d	php:S1808G"JPut one space between the closing parenthesis and the opening curly brace.(°·şÿùÿÿÿÿ
+d	php:S1808K"JPut one space between the closing parenthesis and the opening curly brace.(Ïœ¨üÿÿÿÿ
+_	php:S1808P"JPut one space between the closing parenthesis and the opening curly brace.(¾ÛƒÍ
+_	php:S1808T"JPut one space between the closing parenthesis and the opening curly brace.(À÷§¼
+^	php:S1808b"JPut one space between the closing parenthesis and the opening curly brace.(°§Q
+d	php:S1808j"JPut one space between the closing parenthesis and the opening curly brace.(·í¼’úÿÿÿÿ
+_	php:S1808x"JPut one space between the closing parenthesis and the opening curly brace.(¨íó
+_	php:S1808}"JPut one space between the closing parenthesis and the opening curly brace.(±°Øº
+e	php:S1808ˆ"JPut one space between the closing parenthesis and the opening curly brace.(·í¼’úÿÿÿÿ
+`	php:S1808˜"JPut one space between the closing parenthesis and the opening curly brace.(óÙëû
+`	php:S1808¦"JPut one space between the closing parenthesis and the opening curly brace.(ºÊŸ­
+e	php:S1808±"JPut one space between the closing parenthesis and the opening curly brace.(¡ïƒüÿÿÿÿ
+`	php:S1808½"JPut one space between the closing parenthesis and the opening curly brace.(‚ğ‘È
+_	php:S1808Ç"JPut one space between the closing parenthesis and the opening curly brace.(¸ìôq
+`	php:S1808Ò"JPut one space between the closing parenthesis and the opening curly brace.(Æşùı
+e	php:S1808á"JPut one space between the closing parenthesis and the opening curly brace.(×°óÏúÿÿÿÿ
+e	php:S1808í"JPut one space between the closing parenthesis and the opening curly brace.(Œì‰¹úÿÿÿÿ
+e	php:S1808ı"JPut one space between the closing parenthesis and the opening curly brace.(¡ïƒüÿÿÿÿ
+e	php:S1808Š"JPut one space between the closing parenthesis and the opening curly brace.(±ü¶‡şÿÿÿÿ
+e	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(Ø‹’İüÿÿÿÿ
+`	php:S1808™"JPut one space between the closing parenthesis and the opening curly brace.(±°Øº
+`	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(ÊéŸ„
+`	php:S1808¤"JPut one space between the closing parenthesis and the opening curly brace.(ëÂµ¥
+e	php:S1808°"JPut one space between the closing parenthesis and the opening curly brace.(„§¼©ÿÿÿÿÿ
+`	php:S1808³"JPut one space between the closing parenthesis and the opening curly brace.(›à¿ğ
+`	php:S1808¶"JPut one space between the closing parenthesis and the opening curly brace.(“ÖË’
+e	php:S1808È"JPut one space between the closing parenthesis and the opening curly brace.(ùÊå…şÿÿÿÿ
+e	php:S1808Ë"JPut one space between the closing parenthesis and the opening curly brace.(Šş¡®ùÿÿÿÿ
+`	php:S1808Í"JPut one space between the closing parenthesis and the opening curly brace.(äÙÔÜ
+Z	php:S1808“"DPut one space between this "if" keyword and the opening parenthesis.(±°Øº
+\	php:S1808»"FPut one space between this "else" keyword and the opening curly brace.(å¥‡
+d	php:S1808È"IPut one space between this "foreach" keyword and the opening parenthesis.(ùÊå…şÿÿÿÿ
+^	php:S1808Í"HPut one space between this "elseif" keyword and the opening parenthesis.(äÙÔÜ
+iphp:S100K"PRename function "to_affine" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ïœ¨üÿÿÿÿ
+bphp:S100P"NRename function "_coords" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¾ÛƒÍ
+iphp:S100b"VRename function "_double_with_z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(°§Q
+bphp:S100x"NRename function "_double" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¨íó
+iphp:S100¦"TRename function "_add_with_z_1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ºÊŸ­
+jphp:S100½"URename function "_add_with_z_eq" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‚ğ‘È
+jphp:S100Ò"URename function "_add_with_z2_1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Æşùı
+ophp:S100í"URename function "_add_with_z_ne" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œì‰¹úÿÿÿÿ
+`php:S100‰"KRename function "_add" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(­”ê¦
+ephp:S100°"KRename function "_naf" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(„§¼©ÿÿÿÿÿ
+ephp:S100Ã"KRename function "_mul" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ë¤Ïÿÿÿÿÿÿ
+^	php:S1784"DExplicitly mention the visibility of this constructor "__construct".(¦×í«ÿÿÿÿÿ
+P	php:S1784P";Explicitly mention the visibility of this method "_coords".(¾ÛƒÍ
+Q	php:S1142x"<This method has 4 returns, which is more than the 3 allowed.(¨íó
+R	php:S1142‰"<This method has 7 returns, which is more than the 3 allowed.(­”ê¦
+=	php:S1781")Write this "Class" keyword in lower case.(ÀÀÊ
+3php:S113"'Add a new line at the end of this file.
+nphp:S117"URename this parameter "$ECpoint" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¦×í«ÿÿÿÿÿ
+lphp:S117Y"XRename this local variable "$Z_inv" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¦ëÀÖ
+rphp:S117Z"YRename this local variable "$ZZ_inv" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÓšõÔøÿÿÿÿ
+mphp:S117\"TRename this local variable "$X" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(«şÆ•ıÿÿÿÿ
+mphp:S117]"TRename this local variable "$Y" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Åê÷¨úÿÿÿÿ
+cphp:S117b"PRename this parameter "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(°§Q
+cphp:S117b"PRename this parameter "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(°§Q
+nphp:S117g"URename this local variable "$XX" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(äÏ™Çıÿÿÿÿ
+hphp:S117h"URename this local variable "$YY" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(½áşD
+kphp:S117n"WRename this local variable "$YYYY" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ê®¥
+mphp:S117o"TRename this local variable "$S" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ò”Úûÿÿÿÿ
+hphp:S117p"TRename this local variable "$M" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Â”Š
+mphp:S117q"TRename this local variable "$T" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Âú¨–ûÿÿÿÿ
+iphp:S117r"URename this local variable "$Y3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¯ƒù™
+iphp:S117s"URename this local variable "$Z3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¦†òˆ
+dphp:S117x"PRename this parameter "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¨íó
+dphp:S117x"PRename this parameter "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¨íó
+dphp:S117x"PRename this parameter "$Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¨íó
+ophp:S117…"URename this local variable "$XX" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(äÏ™Çıÿÿÿÿ
+iphp:S117†"URename this local variable "$YY" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(½áşD
+lphp:S117Œ"WRename this local variable "$YYYY" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ê®¥
+jphp:S117"URename this local variable "$ZZ" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(çà¥Ó
+nphp:S117"TRename this local variable "$S" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ò”Úûÿÿÿÿ
+nphp:S117"TRename this local variable "$M" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(°ŒŠ’ÿÿÿÿÿ
+nphp:S117‘"TRename this local variable "$T" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Âú¨–ûÿÿÿÿ
+jphp:S117’"URename this local variable "$Y3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¯ƒù™
+ophp:S117“"URename this local variable "$Z3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(˜èÔëúÿÿÿÿ
+ophp:S117š"URename this local variable "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(„ˆ¹ãûÿÿÿÿ
+jphp:S117›"URename this local variable "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÕîÇ“
+ophp:S117œ"URename this local variable "$Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¾ññûÿÿÿÿ
+ephp:S117¦"PRename this parameter "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ºÊŸ­
+ephp:S117¦"PRename this parameter "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ºÊŸ­
+ephp:S117¦"PRename this parameter "$X2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ºÊŸ­
+ephp:S117¦"PRename this parameter "$Y2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ºÊŸ­
+nphp:S117«"TRename this local variable "$H" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¿ãĞğüÿÿÿÿ
+ophp:S117¬"URename this local variable "$HH" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(’£Êéûÿÿÿÿ
+nphp:S117­"TRename this local variable "$I" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(»üãÈÿÿÿÿÿ
+iphp:S117®"TRename this local variable "$J" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ö¼¸Á
+iphp:S117µ"TRename this local variable "$V" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(£Ùæ˜
+ophp:S117¶"URename this local variable "$X3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ú¾Şûÿÿÿÿ
+ophp:S117·"URename this local variable "$Y3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(è„ğàüÿÿÿÿ
+ophp:S117¸"URename this local variable "$Z3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¶—ÿ®ùÿÿÿÿ
+ephp:S117½"PRename this parameter "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‚ğ‘È
+ephp:S117½"PRename this parameter "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‚ğ‘È
+ephp:S117½"PRename this parameter "$Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‚ğ‘È
+ephp:S117½"PRename this parameter "$X2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‚ğ‘È
+ephp:S117½"PRename this parameter "$Y2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(‚ğ‘È
+nphp:S117Â"TRename this local variable "$A" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ä¥‹ùÿÿÿÿ
+nphp:S117Ã"TRename this local variable "$B" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÎÊ–çûÿÿÿÿ
+nphp:S117Ä"TRename this local variable "$C" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ù¬Òºøÿÿÿÿ
+iphp:S117Å"TRename this local variable "$D" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(šİÛ
+jphp:S117Ë"URename this local variable "$X3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(³ÌŸÒ
+ophp:S117Ì"URename this local variable "$Y3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ïåó´ıÿÿÿÿ
+jphp:S117Í"URename this local variable "$Z3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ûïèİ
+ephp:S117Ò"PRename this parameter "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Æşùı
+ephp:S117Ò"PRename this parameter "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Æşùı
+ephp:S117Ò"PRename this parameter "$Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Æşùı
+ephp:S117Ò"PRename this parameter "$X2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Æşùı
+ephp:S117Ò"PRename this parameter "$Y2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Æşùı
+kphp:S117Ö"WRename this local variable "$Z1Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¼ÄÜ
+jphp:S117×"URename this local variable "$U2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¬òó½
+jphp:S117Ø"URename this local variable "$S2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ò–¾»
+nphp:S117Ù"TRename this local variable "$H" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ŸÚ¤“ùÿÿÿÿ
+jphp:S117Ú"URename this local variable "$HH" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(½­“¾
+nphp:S117Ü"TRename this local variable "$I" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(»üãÈÿÿÿÿÿ
+iphp:S117İ"TRename this local variable "$J" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ö¼¸Á
+iphp:S117å"TRename this local variable "$V" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(£Ùæ˜
+ophp:S117æ"URename this local variable "$X3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(×ıÜ·ùÿÿÿÿ
+ophp:S117ç"URename this local variable "$Y3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(è„ğàüÿÿÿÿ
+ophp:S117è"URename this local variable "$Z3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÑÄÇıÿÿÿÿ
+jphp:S117í"PRename this parameter "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œì‰¹úÿÿÿÿ
+jphp:S117í"PRename this parameter "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œì‰¹úÿÿÿÿ
+jphp:S117í"PRename this parameter "$Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œì‰¹úÿÿÿÿ
+jphp:S117í"PRename this parameter "$X2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œì‰¹úÿÿÿÿ
+jphp:S117í"PRename this parameter "$Y2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œì‰¹úÿÿÿÿ
+jphp:S117í"PRename this parameter "$Z2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œì‰¹úÿÿÿÿ
+kphp:S117ñ"WRename this local variable "$Z1Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¼ÄÜ
+kphp:S117ò"WRename this local variable "$Z2Z2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(êíÏn
+ophp:S117ó"URename this local variable "$U1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(§Òôşÿÿÿÿ
+jphp:S117ô"URename this local variable "$U2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¬òó½
+jphp:S117õ"URename this local variable "$S1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¸×ğ¤
+jphp:S117ö"URename this local variable "$S2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ò–¾»
+nphp:S117÷"TRename this local variable "$H" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Û¤Ä…øÿÿÿÿ
+nphp:S117ø"TRename this local variable "$I" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÍÂÓúûÿÿÿÿ
+iphp:S117ù"TRename this local variable "$J" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Üº“õ
+iphp:S117€"TRename this local variable "$V" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¾ˆ¹â
+ophp:S117"URename this local variable "$X3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(×ıÜ·ùÿÿÿÿ
+ophp:S117‚"URename this local variable "$Y3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ğ¯¢ıÿÿÿÿ
+ophp:S117ƒ"URename this local variable "$Z3" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¦‘ÍÊıÿÿÿÿ
+ephp:S117‰"PRename this parameter "$X1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(­”ê¦
+ephp:S117‰"PRename this parameter "$Y1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(­”ê¦
+ephp:S117‰"PRename this parameter "$Z1" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(­”ê¦
+ephp:S117‰"PRename this parameter "$X2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(­”ê¦
+ephp:S117‰"PRename this parameter "$Y2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(­”ê¦
+ephp:S117‰"PRename this parameter "$Z2" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(­”ê¦
+c	php:S1779"VReplace all non line feed end of line characters in this file "PointJacobi.php" by LF.
+>	php:S1481Å"(Remove this unused "$Z2" local variable.(¦­¶È
+=	php:S1481À"'Remove this unused "$a" local variable.(å£ñ¯
+=	php:S1481©"'Remove this unused "$a" local variable.(å£ñ¯
+B	php:S1481"'Remove this unused "$p" local variable.(¨òÙûÿÿÿÿ
+=	php:S1481Ÿ"'Remove this unused "$a" local variable.(å£ñ¯
+{	php:S1448"gClass "PointJacobi" has 21 methods, which is greater than 20 authorized. Split it into smaller classes.(ÀÀÊ

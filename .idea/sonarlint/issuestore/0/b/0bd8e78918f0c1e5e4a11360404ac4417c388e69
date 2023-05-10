@@ -1,0 +1,15 @@
+
+Qphp:S105"EReplace all tab characters in this file by sequences of white-spaces.
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(ÚÿÌ–ûÿÿÿÿ
+W	php:S1808"=Move this open curly brace to the beginning of the next line.(ÓÂ¿ûÿÿÿÿ
+d	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(ÓÂ¿ûÿÿÿÿ
+d	php:S1808"JPut one space between the closing parenthesis and the opening curly brace.(‰”Ó¦øÿÿÿÿ
+^	php:S1808"DPut one space between this "if" keyword and the opening parenthesis.(‰”Ó¦øÿÿÿÿ
+[	php:S1808"FPut one space between this "else" keyword and the opening curly brace.(å¥‡
+7	php:S1780&"Remove this closing tag "?>".(Ö‘äÏúÿÿÿÿ
+fphp:S116"MRename this field "$KID" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(›§†æúÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
+jphp:S117"QRename this parameter "$KID" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ÓÂ¿ûÿÿÿÿ
+nphp:S117"ZRename this local variable "$key_res" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(½ã€
+[	php:S1779"NReplace all non line feed end of line characters in this file "Key.php" by LF.
+]	php:S1788"CMove arguments "$pem", "$KID" after arguments without default value(ÓÂ¿ûÿÿÿÿ

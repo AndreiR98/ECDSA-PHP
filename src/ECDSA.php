@@ -9,10 +9,9 @@
 
 namespace ECDSA;
 
-use ECDSA\PointJacobi;
-use ECDSA\Math;
-use ECDSA\Curves;
-use ECDSA\Algorithms;
+use Brick\Math\BigInteger;
+use ECDSA\points\ECpoint;
+use GMP;
 
 Class ECDSA {
     /**
@@ -23,35 +22,28 @@ Class ECDSA {
      *
      * @return array
      */
-    public static function Sign($message, $Key){        
+    public static function Sign(String $message, Key $key) : Signature{
         //Recover the secret key from pem by KID
-        $secretKey = Math::hex2int(Math::hexlify($Key->d));
+        $secretKey = $key->getPrivateKey()->getSecret();
 
-        $curve = $Key->curve;
-        $algorithm = $Key->algorithm;
+        $curve = $key->getCurve();
+        $algorithm = $key->getAlgorithm();
 
-        $order = $curve->N;
+        $order = $curve->getOrder();
         
         //Recover the hash method for this curve
-        $hash = $algorithm->hash;
+        $hash = $algorithm->getHash();
 
         
-        $k  = (Math::hex2int(hash_hmac($hash, $message, $secretKey))) % $order;
-
-        [$x, $y] = $curve->generator();
+        $k  = (Math::hex2int(hash_hmac($hash, $message, Math::hexlify(gmp_export($secretKey))))) % $order;
 
         $h = (Math::hex2int(openssl_digest($message, $hash))) % $order;
 
-        $generator = new PointJacobi(new ECpoint($x, $y, 1), $curve);
+        $r = $curve->getGenerator()->multiply(gmp_init($k, 10))->toAffine();
 
-        $rx = $generator->_mul($k)->to_affine()['x'];
+        $s = (gmp_invert($k, $order)*($h + ($r->getX() * $secretKey) % $order)) % $order;
 
-        $s = (gmp_invert($k, $order)*($h + ($rx * $secretKey) % $order)) % $order;
-       
-        return ['r'=>Math::unhexlify(Math::int2hex($rx)), 's'=>Math::unhexlify(Math::int2hex($s))];
-
-        
-
+        return new Signature($r->getX(), gmp_init($s, 10));
     }
 
     /**
@@ -65,56 +57,34 @@ Class ECDSA {
      * @return bool
      */
 
-    public static function Verify($message, $signature, $key){
+    public static function Verify(String $message, Signature $signature, Key $key) : bool{
 
-        $Px = Math::hex2int(Math::hexlify($key->x));
-        $Py = Math::hex2int(Math::hexlify($key->y));
+        $Px = $key->getPublicKey()->getAffine()->getX();
+        $Py = $key->getPublicKey()->getAffine()->getX();
 
-        $r = Math::hex2int(Math::hexlify($signature['r']));
-        $s = Math::hex2int(Math::hexlify($signature['s']));
+        $r = $signature->getR();
+        $s = $signature->getS();
 
-        $curve = $key->curve;
-        $algorithm = $key->algorithm;
-        $order = $curve->order();
+        $curve = $key->getPublicKey()->getCurve();
+        $algorithm = $key->getPublicKey()->getAlgorithm();
+        $order = $curve->getOrder();
 
-        [$x, $y] = $curve->generator();
+        $generator = $curve->getGenerator();
 
-        $generator = new PointJacobi(new ECpoint($x, $y, 1), $curve);
-        
-        $publicPoint = new PointJacobi(new ECpoint($Px, $Py, 1), $curve);
+        $publicPoint = $key->getPublicKey()->getPoint();
 
-        $hash = (Math::hex2int(openssl_digest($message, $algorithm->hash))) % $order;
+        $hash = (Math::hex2int(openssl_digest($message, $algorithm->getHash()))) % $order;
 
         $c = gmp_invert($s, $order);
         $u1 = ($hash * $c) % $order;
         $u2 = ($r * $c) % $order;
 
-        $pu1 = $generator->_mul($u1);
-        $pu2 = $publicPoint->_mul($u2);
+        $pu1 = new ECpoint($generator->multiply(gmp_init($u1, 10))->toAffine(), $curve);
+        $pu2 = new ECpoint($publicPoint->multiply(gmp_init($u2, 10))->toAffine(), $curve);
 
         $publicVerificationPoint = $pu1->add($pu2);
-        $vx = $publicVerificationPoint->xs() % $order;
-      
+        $vx = $publicVerificationPoint->toAffine()->getX() % $order;
+
         return $r == $vx;
-    }
-
-
-
-    /**
-     * @param int secretKey
-     * 
-     * 
-     * @param object Curve
-     *
-     * @return object JacobiPoint
-     */
-    public function GetPublicKey($secretKey, $curve){
-        [$x, $y] = $curve->generator();
-
-        $generator = new PointJacobi(new ECpoint($x, $y, 1), $curve);
-
-        $publicPoint = $generator->_mul($secretKey);
-
-        return $publicPoint->to_affine();
     }
 }
