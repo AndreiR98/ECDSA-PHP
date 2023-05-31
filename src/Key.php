@@ -77,6 +77,24 @@ class Key implements KeyComponentInterface {
                         $this->publicKey = $this->getPrivateKey()->getPublicKey();
                     }
                 }
+            } else {
+                try{
+                    $res = openssl_pkey_get_public($pem);
+
+                    $key_res = openssl_pkey_get_details($res)['ec'];
+
+                    $point = new Point(
+                        gmp_init(Math::hexlify($key_res['x']), 16),
+                        gmp_init(Math::hexlify($key_res['y']), 16),
+                        gmp_init(1, 10)
+                    );
+
+                    $ecPoint = new ECpoint($point, $this->curve);
+
+                    $publicKey = new PublicKey($ecPoint, $this->algorithm);
+
+                    $this->publicKey = $publicKey;
+                }catch (Exception $exception){}
             }
         }catch (Exception $exception){}
     }

@@ -63,12 +63,12 @@ class ECpoint extends PointJacobi implements EllipticPoint {
 
     public function add(ECpoint $secondPoint): ECpoint
     {
-        return parent::addPoints($this, $secondPoint);
+        return parent::addPoints($secondPoint);
     }
 
     public function sub(ECpoint $secondPoint): ECpoint
     {
-        return parent::subPoints($this, $secondPoint);
+        return parent::subPoints($secondPoint);
     }
 
     public function multiply(GMP $multiplicator): ECpoint
