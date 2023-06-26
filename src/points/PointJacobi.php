@@ -12,7 +12,13 @@ abstract class PointJacobi
     }
 
     protected function subPoints(ECpoint $secondPoint) : ECpoint {
-        return new ECpoint();
+        $order = $this::getCurve()->getOrder();
+
+        //Negate 2nd point
+        $newY = $order - $secondPoint->getY();
+        $negPoint = new ECpoint(new Point($secondPoint->getX(), $newY, $secondPoint->getZ()), $this::getCurve());
+
+        return $this->addPoint($negPoint);
     }
 
     protected function multiplyPoints(GMP $multiplicator) : ECpoint {

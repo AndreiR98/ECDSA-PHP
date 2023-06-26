@@ -3,6 +3,7 @@
 namespace ECDSA\keys;
 
 use Brick\Math\BigInteger;
+use Brick\Math\Exception\MathException;
 use ECDSA\Algorithms;
 use ECDSA\curves\Curves;
 use ECDSA\points\ECpoint;
@@ -36,6 +37,7 @@ class PublicKey implements PublicInterface
 
     /**
      * @return BigInteger
+     * @throws MathException
      */
     public function getX(): BigInteger
     {
@@ -44,6 +46,7 @@ class PublicKey implements PublicInterface
 
     /**
      * @return BigInteger
+     * @throws MathException
      */
     public function getY(): BigInteger
     {

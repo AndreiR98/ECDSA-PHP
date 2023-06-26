@@ -30,7 +30,7 @@ class Algorithms {
 		return new Algorithms('ES256', 'sha256');
 	}
 
-	public static function ES3_256(){
+	public static function ES3256(){
 		return new Algorithms('ES3_256', 'sha3-256');
 	}
 }

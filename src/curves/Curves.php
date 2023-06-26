@@ -66,6 +66,10 @@ Class Curves {
 		return $this->A;
 	}
 
+    public function b() {
+        return $this->B;
+    }
+
 	public function p() {
 		return $this->P;
 	}
@@ -83,21 +87,6 @@ Class Curves {
 	        'prime256v1'
         );
 	}
-
-    public static function TestNIST256p(){
-        return new Curves(
-            gmp_init("-2"),
-            gmp_init("15"),
-            gmp_init("23"),
-            gmp_init("23"),
-            gmp_init("4"),
-            gmp_init("5"),
-            'prime256v1',
-            [1, 2, 840, 10045, 3, 1, 7],
-            'prime256v1'
-        );
-    }
-
 	public static function SECP256k1(){
 		return new Curves(
 			gmp_init("0"),
@@ -106,7 +95,7 @@ Class Curves {
 			gmp_init("115792089237316195423570985008687907852837564279074904382605163141518161494337"),
 			gmp_init("55066263022277343669578718895168534326250603453777594175500187360389116729240"),
 			gmp_init("32670510020758816978083085130507043184471273380659243275938904335757337482424"),
-			'SECP256k1',
+			'secp256k1',
 			[1, 3, 132, 0, 10],
 			'secp256k1'
 		);

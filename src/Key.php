@@ -40,7 +40,12 @@ class Key implements KeyComponentInterface {
 
     public function generateRandomKey(): void
     {
-        // TODO: Implement generateRandomKey() method.
+        $randomBytes = random_bytes(32);
+        $randomString = bin2hex($randomBytes);
+
+        $privateKey = new PrivateKey($randomString, $this->curve, $this->algorithm);
+        $this->privateKey = $privateKey;
+        $this->publicKey = $privateKey->getPublicKey();
     }
 
     public function getCurve() : Curves {
@@ -72,10 +77,18 @@ class Key implements KeyComponentInterface {
                 if($key_res['curve_name'] == $this->curve->getNistName()){
                     $this->privateKey = new PrivateKey(Math::hexlify($key_res['d']), $this->curve, $this->algorithm);
 
-                    if(($this->publicKey->getAffine()->getX() == Math::hex2int(Math::hexlify($key_res['x']))) &&
-                        ($this->publicKey->getAffine()->getY() == Math::hex2int(Math::hexlify($key_res['y'])))){
-                        $this->publicKey = $this->getPrivateKey()->getPublicKey();
+                    //Pre-compute the key before assign
+                    $x = $this->privateKey->getPublicKey()->getX();
+                    $y = $this->privateKey->getPublicKey()->getY();
+
+                    if($x == Math::hex2int(Math::hexlify($key_res['x'])) && $y = Math::hex2int(Math::hexlify($key_res['y']))){
+                        $this->publicKey = $this->privateKey->getPublicKey();
                     }
+
+////                    if(($this->publicKey->getAffine()->getX() == Math::hex2int(Math::hexlify($key_res['x']))) &&
+////                        ($this->publicKey->getAffine()->getY() == Math::hex2int(Math::hexlify($key_res['y'])))){
+//                        $this->publicKey = $this->getPrivateKey()->getPublicKey();
+//                    //}
                 }
             } else {
                 try{

@@ -7,22 +7,43 @@ use ECDSA\Algorithms;
 use ECDSA\curves\Curves;
 use ECDSA\ECDSA;
 use ECDSA\Key;
+use ECDSA\Math;
+use ECDSA\points\ECpoint;
+use ECDSA\points\Point;
 
-$pem = '-----BEGIN PUBLIC KEY-----
-MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEx2HtKUYnSxJw/bgED+2LJQMAIjyA
-+I2plnVS50JCXaIALKstac37wB1lUvasfdvbE+nNbCvMkGPdMjLluMfT3g==
------END PUBLIC KEY-----';
+$pem = '-----BEGIN EC PRIVATE KEY-----
+MHQCAQEEIDiIe/UM0hZ3FCKwTSSD4/I0cEIS4R5rW/R5UmTLXO0ZoAcGBSuBBAAK
+oUQDQgAEGaWa05oZMF55Uy7lz1/f/gX090ujeyrCH/+m5aysApbE7t+WUx5fzTTW
+iYvz/MSXRGITuzHcFAZ6KhSKImkrFQ==
+-----END EC PRIVATE KEY-----';
 
-$curve = Curves::NIST256p();
+//$curve = Curves::SECP256k1();
+//$algorithm = Algorithms::ES256();
+//
+//$key = new Key($curve,$algorithm, "pollll");
+//$key->fromPemFormat($pem);
+//
+//$signature = ECDSA::Sign("test", $key);
+//$verify = ECDSA::Verify("test", $signature, $key);
+//
+//
+////Retrieve the key
+//$rInverted = gmp_invert($signature->getR(), $curve->getOrder());
+//$h = (Math::hex2int(openssl_digest("test", 'sha256'))) % $curve->getOrder();
+//
+//$point1 = $curve->getGenerator()->multiply(gmp_init("6"));
+
+$curve = Curves::SECP256k1();
 $algorithm = Algorithms::ES256();
 
-$key = new Key($curve,$algorithm, "pollll");
-$key->fromPemFormat($pem);
+$key = new Key($curve, $algorithm, "kilburn");
+$key->generateRandomKey();
+//$key->fromPemFormat($pem);
+//
+$signature = ECDSA::Sign("test", $key);
+$s = $signature->getR();
 
-$Y = gmp_init("115713166516540571362874698292943038916433309647960401451137263415878500438387", 10);
 
-$X = $curve->getGenerator()->multiply(gmp_init("2", 10))->toAffine();
 
-//$Y =
+print_r($signature);
 
-print_r($X);
