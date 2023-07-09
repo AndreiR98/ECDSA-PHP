@@ -138,7 +138,7 @@ class Key implements KeyComponentInterface {
     }
 
     public function getKID() : String {
-        return $this->getKID();
+        return $this->kID;
     }
 }
 ?>
