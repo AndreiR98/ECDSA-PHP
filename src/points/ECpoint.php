@@ -75,4 +75,8 @@ class ECpoint extends PointJacobi implements EllipticPoint {
     {
         return parent::multiplyPoints($multiplicator);
     }
+
+    public function negate(): ECpoint {
+        return parent::negate();
+    }
 }

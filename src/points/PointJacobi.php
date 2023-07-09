@@ -42,6 +42,14 @@ abstract class PointJacobi
         return $point;
     }
 
+    protected function negate(): ECpoint {
+        $order = $this::getCurve()->getOrder();
+
+        //Negate 2nd point
+        $newY = $order - $this->getY();
+        return new ECpoint(new Point($this->getX(), $newY, $this->getZ()), $this::getCurve());
+    }
+
     public function scalePoint(ECpoint $point) : Point {
         $p = $this->getCurve()->p();
 

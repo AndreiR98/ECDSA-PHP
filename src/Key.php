@@ -81,9 +81,9 @@ class Key implements KeyComponentInterface {
                     $x = $this->privateKey->getPublicKey()->getX();
                     $y = $this->privateKey->getPublicKey()->getY();
 
-                    if($x == Math::hex2int(Math::hexlify($key_res['x'])) && $y = Math::hex2int(Math::hexlify($key_res['y']))){
+                    //if(($x == Math::hex2int(Math::hexlify($key_res['x']))) && ($y = Math::hex2int(Math::hexlify($key_res['y'])))){
                         $this->publicKey = $this->privateKey->getPublicKey();
-                    }
+                    //}
 
 ////                    if(($this->publicKey->getAffine()->getX() == Math::hex2int(Math::hexlify($key_res['x']))) &&
 ////                        ($this->publicKey->getAffine()->getY() == Math::hex2int(Math::hexlify($key_res['y'])))){

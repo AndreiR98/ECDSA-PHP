@@ -85,6 +85,8 @@ Class ECDSA {
         $publicVerificationPoint = $pu1->add($pu2);
         $vx = $publicVerificationPoint->toAffine()->getX() % $order;
 
+        //print_r($publicVerificationPoint);
+
         return $r == $vx;
     }
 }
